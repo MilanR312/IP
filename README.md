@@ -19,6 +19,7 @@ example: Pin.SetValue.Mosfet.ch0(10);
   - ch1
   - ch2
   - ch3
+ 
 ## initialisation functions
 If the required initialisation function is not used then the module shall not be enabled  
 example: Init.Ser();
@@ -28,6 +29,7 @@ example: Init.Ser();
 - Ser
 - Sd
 - Rtc  Not added yet
+
 ## Tester functions
 These functions are not required but test if the modules are working correctly
 ### Function
@@ -35,6 +37,16 @@ These functions are not required but test if the modules are working correctly
 ### SubFunction list
 - Sd
 - Rtc
+
+## SdCard functions
+These functions are used to print to the sd card
+### Function
+- Sd
+### SubFunction list
+- Print
+- SetValue
+  - TTC1
+
 ## Mosfet functions
 These functions can be used to control the 4 output pins
 example: Mosfet.Off.ch3();
@@ -48,6 +60,7 @@ example: Mosfet.Off.ch3();
 - ch1
 - ch2
 - ch3
+
 ## Fluid related functions
 These functions control the modules that are in contact with water
 example: Flow.flowCalc
@@ -56,6 +69,10 @@ example: Flow.flowCalc
 ### SubFunction List
 - flowCalc
 - Pump
+- SetValue
+  - TTC1
+  - TTC2
+
 ## MSensor
 These functions interract with the moisture sensor
 example MSensor.SetHumidity();
@@ -64,9 +81,21 @@ example MSensor.SetHumidity();
 ### SubFunction List
 - SetHumidity
 - isWet
+- SetValue
+  - dry
+  - wet
+  - treshold
+ 
 ## Lamps
 this function controls the lamps
 ### Function
 - Lamps
 ### SubFunction list
 - Auto
+- SetValue
+  - TTC1
+  - TTC2
+  - TTC3
+  - DTC1
+  - DTC2
+  - DTC3

@@ -67,6 +67,7 @@ class ip{
                 initialisation();//constructor
                 void Ser();//initialise serial data
                 void Sd();//initialise the sd card
+                void Rtc();
         };
         class Tester{//class used to test if hardware is found and initialised
             public:

@@ -12,7 +12,7 @@ All links shall be provided at the bottom of this document
   This library is used for communication between the SD card module and the arduino. The SD library comes preinstalled and does not require an extra download. It is built by William Greiman and is licenced under a Creative Commons Attribution-ShareAlike 3.0 License to which the link shall be provided at the bottom of this document. 
   
 4) RTClib:
-  This library is used for control over the real time clock module. The RTClib can be officially downloaded using the library manager in the arduino ide. It is a fork of Jeelab's RTC library created by adafruit and is licenced under the MIT licence.
+  This library is used for control over the real time clock module. The RTClib can be officially downloaded using the library manager in the arduino ide and is also provided [here](/libs/RTClib). It is a fork of Jeelab's RTC library created by adafruit and is licenced under the MIT licence.
   
 
   

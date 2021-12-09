@@ -29,7 +29,7 @@ example: Init.Ser();
 ### SubFunction list
 - Ser
 - Sd
-- Rtc  Not added yet
+- Rtc
 
 ## Tester functions
 These functions are not required but test if the modules are working correctly

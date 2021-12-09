@@ -1,7 +1,8 @@
 # Current functions list
-All function parts must be spaced using a .  
+All function parts must be spaced using a .
+When not used, values will be automatically set to the default values specified [here](/docs/readme.md)  
 ## Pin related functions  
-When not used, pins will be automatically set to the default values specified [here](/docs/readme.md)  
+Functions to interract with the pins
 
 example: Pin.SetValue.Mosfet.ch0(10);
 ### Function

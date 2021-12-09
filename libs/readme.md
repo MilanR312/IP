@@ -8,7 +8,7 @@ All links shall be provided at the bottom of this document
 2) Wire Library:
   The Wire library allows a simple communication via the I2C communication standard, this library is used by the following libraries: RTClib. The Wire library comes preinstalled and does not require an extra download. This library is licenced under a Creative Commons Attribution-ShareAlike 3.0 License. 
   
-3)SD Library:
+3) SD Library:
   This library is used for communication between the SD card module and the arduino. The SD library comes preinstalled and does not require an extra download. It is built by William Greiman and is licenced under a Creative Commons Attribution-ShareAlike 3.0 License to which the link shall be provided at the bottom of this document. 
   
 4) RTClib:
@@ -16,9 +16,13 @@ All links shall be provided at the bottom of this document
   
 
   
-https://creativecommons.org/licenses/by-sa/3.0/
-https://nl.wikipedia.org/wiki/MIT-licentie
-https://www.arduino.cc/en/reference/SPI
-https://www.arduino.cc/en/reference/SD
+https://creativecommons.org/licenses/by-sa/3.0/  
+
+https://nl.wikipedia.org/wiki/MIT-licentie  
+
+https://www.arduino.cc/en/reference/SPI  
+
+https://www.arduino.cc/en/reference/SD  
+
 https://github.com/adafruit/RTClib
  

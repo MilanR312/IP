@@ -94,6 +94,11 @@ void ip::initialisation::Sd(){
       Serial.println("error opening test.csv"); //error
     }
 }
+void ip::initialisation::Rtc(){
+  rtc0.adjust(DateTime(F(__DATE__), F(__TIME__)));
+  //rtc.adjust(DateTime(2021, 11, 4, 11, 32, 6));
+  rtc0.writeSqwPinMode(DS1307_SquareWave1HZ);
+}
 
 #pragma endregion
 #pragma region test

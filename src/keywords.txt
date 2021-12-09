@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ip	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Pin	KEYWORD2
+Init	KEYWORD2
+Test	KEYWORD2
+Sd	KEYWORD2
+SetValue	KEYWORD2
+GetValue	KEYWORD2
+Mosfet24v	KEYWORD2
+Print	KEYWORD2
+CS1	KEYWORD2
+Mosfet	KEYWORD2
+On	KEYWORD2
+Off	KEYWORD2
+SQW	KEYWORD2
+ch0	KEYWORD2
+ch1	KEYWORD2
+ch2	KEYWORD2
+ch3	KEYWORD2
+Ser	KEYWORD2
+Rtc	KEYWORD2
+Flow	KEYWORD2
+flowCalc	KEYWORD2
+MSensor	KEYWORD2
+SetHumidity	KEYWORD2
+isWet	KEYWORD2
+Pump	KEYWORD2
+Lamps	KEYWORD2
+Auto	KEYWORD2
+
+######################################
+# Constants (LITERAL1)
+#######################################
+

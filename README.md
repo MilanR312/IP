@@ -33,6 +33,7 @@ example: Init.Ser();
 
 ## Tester functions
 These functions are not required but test if the modules are working correctly
+example Test.Sd();
 ### Function
 - Test
 ### SubFunction list
@@ -89,6 +90,7 @@ example MSensor.SetHumidity();
  
 ## Lamps
 this function controls the lamps
+example Lamps.SetValue.TTC1(60);
 ### Function
 - Lamps
 ### SubFunction list

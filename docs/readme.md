@@ -22,9 +22,9 @@
 - TTC1 = 1 cyclus time for calculating the flow in seconds
 - TTC2 = 1 cyclus time for controling the pump in seconds
 ### MSensor
-- dry = 600 analog value for dry soil
-- wet = 180 analog value for wet soil
-- treshold = 70 wet/dry treshold
+- dry = 600 analog value for dry soil (range 0-1023)
+- wet = 180 analog value for wet soil (range 0-1023)
+- treshold = 70 wet/dry treshold (in %)
 ### Lamps
 - TTC1 = 300 cyclus time for lamp 1
 - TTC2 = 300 cyclus time for lamp 2

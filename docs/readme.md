@@ -1,4 +1,4 @@
-# temp
+# Default values
 ## Default pin values
 ### Non changable pins
 - miso 50

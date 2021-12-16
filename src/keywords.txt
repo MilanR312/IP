@@ -48,6 +48,8 @@ DTC3	KEYWORD2
 dry	KEYWORD2
 wet	KEYWORD2
 treshold	KEYWORD2
+CVSens	KEYWORD2
+Calc	KEYWORD2
 
 ######################################
 # Constants (LITERAL1)

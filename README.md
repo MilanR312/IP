@@ -29,7 +29,7 @@ example: Init.Ser();
 ### SubFunction list
 - Ser
 - Sd
-- Rtc
+- cvSens
 
 ## Tester functions
 These functions are not required but test if the modules are working correctly
@@ -42,10 +42,12 @@ example Test.Sd();
 
 ## SdCard functions
 These functions are used to print to the sd card
+example: Sd.PrintSer();
 ### Function
 - Sd
 ### SubFunction list
 - Print
+- PrintSer
 - SetValue
   - TTC1
 
@@ -102,3 +104,12 @@ example Lamps.SetValue.TTC1(60);
   - DTC1
   - DTC2
   - DTC3
+## cvSensor
+these functions control the current and voltage sensor
+example CVSens:Calc();
+### Functions
+- CVSens
+### subFunction list
+- Calc
+- SetValue
+  - TTC

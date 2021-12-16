@@ -86,7 +86,7 @@ class ip{
                 inline static char buffertemp[150];
             public:
                 void Print();//print all current data
-                void PrintTemp();
+                void PrintSer();
 
                 class setters{
                     public:

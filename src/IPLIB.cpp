@@ -240,7 +240,7 @@ void ip::sdCard::Print()
   }
 }
 
-void ip::sdCard::PrintTemp()
+void ip::sdCard::PrintSer()
 {
 
   if (sdCard::tuctemp == _SecCounter)

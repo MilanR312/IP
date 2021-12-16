@@ -26,9 +26,11 @@
 - wet = 180 analog value for wet soil (range 0-1023)
 - treshold = 70 wet/dry treshold (in %)
 ### Lamps
-- TTC1 = 300 cyclus time for lamp 1
-- TTC2 = 300 cyclus time for lamp 2
-- TTC3 = 600 cyclus time for lamp 3
-- DTC1 = 0.25 duty cycle for lamp 1
+- TTC1 = 120 cyclus time for lamp 1
+- TTC2 = 120 cyclus time for lamp 2
+- TTC3 = 240 cyclus time for lamp 3
+- DTC1 = 0.50 duty cycle for lamp 1
 - DTC2 = 0.50 duty cycle for lamp 2
 - DTC3 = 0.50 duty cycle for lamp 3
+### cvSens
+- TTC = 1 cyclus time for measuring the cv

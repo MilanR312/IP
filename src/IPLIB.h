@@ -68,6 +68,7 @@ class ip{
                 void Ser();//initialise serial data
                 void Sd();//initialise the sd card
                 void Rtc();
+                void cvSens();
         };
         class Tester{//class used to test if hardware is found and initialised
             public:
@@ -155,10 +156,10 @@ class ip{
         };
         class lamps{//class used for all lamp related functions
             private:
-                inline static int ttc1 = 300;//on and off time for lamp 1
-                inline static int ttc2 = 300;//on and off time for lamp 2
-                inline static int ttc3 = 600;//on and off time for lamp 3
-                inline static float dtc1 = 0.25;
+                inline static int ttc1 = 120;//on and off time for lamp 1
+                inline static int ttc2 = 120;//on and off time for lamp 2
+                inline static int ttc3 = 240;//on and off time for lamp 3
+                inline static float dtc1 = 0.50;
                 inline static float dtc2 = 0.50;
                 inline static float dtc3 = 0.50;
                 int tuc1;//calc vars
@@ -179,6 +180,25 @@ class ip{
                 };
                 setters SetValue;
         };
+        class cvSens{
+            private:
+                inline static float Voltage = 0;
+                inline static float Current = 0;
+                inline static float Power = 0;
+                int tuc = 0;
+                inline static int ttc = 1;
+            public:
+                inline static char VoltageStr[10] = "noValue";
+                inline static char CurrentStr[10] = "noValue";
+                inline static char PowerStr[10] = "noValue";
+                void Calc();
+
+                class setters{
+                    public:
+                        void TTC(int a);
+                };
+                setters SetValue;
+        };
     pins Pin;//initialisation
     initialisation Init;
     Tester Test;
@@ -187,6 +207,7 @@ class ip{
     flow Flow;
     MoistSensor MSensor;
     lamps Lamps;
+    cvSens CVSens;
 };
 
 

@@ -32,7 +32,8 @@ example: Init.Ser();
 - cvSens
 
 ## Tester functions
-These functions are not required but test if the modules are working correctly
+These functions are not required but test if the modules are working correctly  
+
 example Test.Sd();
 ### Function
 - Test
@@ -52,7 +53,8 @@ example: Sd.PrintSer();
   - TTC1
 
 ## Mosfet functions
-These functions can be used to control the 4 output pins
+These functions can be used to control the 4 output pins  
+
 example: Mosfet.Off.ch3();
 ### Function
 - Mosfet
@@ -66,7 +68,8 @@ example: Mosfet.Off.ch3();
 - ch3
 
 ## Fluid related functions
-These functions control the modules that are in contact with water
+These functions control the modules that are in contact with water  
+
 example: Flow.flowCalc
 ### Function
 - Flow
@@ -79,7 +82,6 @@ example: Flow.flowCalc
 
 ## MSensor
 These functions interract with the moisture sensor  
-
 example MSensor.SetHumidity();
 ### Function
 - MSensor

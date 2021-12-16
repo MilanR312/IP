@@ -78,7 +78,8 @@ example: Flow.flowCalc
   - TTC2
 
 ## MSensor
-These functions interract with the moisture sensor
+These functions interract with the moisture sensor  
+
 example MSensor.SetHumidity();
 ### Function
 - MSensor
@@ -91,7 +92,8 @@ example MSensor.SetHumidity();
   - treshold
  
 ## Lamps
-this function controls the lamps
+this function controls the lamps  
+
 example Lamps.SetValue.TTC1(60);
 ### Function
 - Lamps
@@ -105,7 +107,8 @@ example Lamps.SetValue.TTC1(60);
   - DTC2
   - DTC3
 ## cvSensor
-these functions control the current and voltage sensor
+these functions control the current and voltage sensor  
+
 example CVSens:Calc();
 ### Functions
 - CVSens

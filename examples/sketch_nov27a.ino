@@ -21,7 +21,6 @@ void setup(){
   
   IP.Init.Ser();
   IP.Init.Sd();
-  IP.Init.Rtc();
   
   IP.Test.Sd();
   IP.Test.Rtc();
